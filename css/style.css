@@ -1,0 +1,86 @@
+body {
+  background-color: gray;
+  font-size: 40px;
+  background: url(https://photos-2.dropbox.com/t/2/AABSTmOzp4gSj4OqRiZ-u8r_02oeX20GEMW6inzqP7bs1Q/12/27247835/jpeg/32x32/1/_/1/2/seamless-red.jpg/EPrWwRQY700gBygH/AKGmHRwzn0ABorBtEbGj7bctH6nK7y-TV7qohPzz77E?size=1280x960&size_mode=3) repeat;
+}
+
+.calculator {
+  border: 2px #666;
+  border-radius: 15px;
+  border-style: outset;
+  box-shadow: 0px 0px 20px 5px;
+  margin-top: 25px;
+  padding-bottom: 10px;
+  width: 450px;
+  background-color: lightgray;
+}
+
+#title {
+  font-family: 'Megrim', cursive;
+  margin-top: 5px;
+}
+
+#display {
+  position: relative;
+  right: -3px;
+  border: 3px white;
+  border-style: inset;
+  box-shadow: 0px 0px 7px 1px black inset;
+  width: 285px;
+  height: 75px;
+  margin-left: 5px;
+  margin-top: 15px;
+  padding-right: 10px;
+  background-color: moccasin;
+  line-height: 70px;
+  font-size: 36px;
+}
+
+.calc-button {
+  border: 1px black solid outset;
+  border-radius: 20px;
+  width: 90px;
+  height: 90px;
+  margin: 5px;
+  background-color: #333;
+  color: white;
+}
+
+.row-centered {
+  text-align:center;
+}
+.button-row {
+  margin-left: 10px;
+}
+
+#fourth {
+  margin-bottom: 10px;
+}
+
+/* Remove focus from buttons. Ugly for accessibility. */
+button:focus {
+  outline: none;
+  outline: 0;
+}
+
+.about {
+  position: absolute;
+  bottom: 0;
+  left: 5px;
+  color: white;
+  font-size: 14px;
+}
+.links {
+  position: absolute;
+  bottom: 0;
+  right: 5px;
+  font-size: 14px;
+}
+.fm-footer-wrapper {
+  position: absolute;
+  bottom: 0;
+  height: 20px;
+  width: 100%;
+  border: 1px black solid;
+  background-color: black;
+}
